@@ -1,0 +1,534 @@
+{
+  "personal": {
+    "name": "Aliya Tynybayeva",
+    "title": "Product Designer",
+    "tagline": "Crafting User-Centered Digital Experiences Through Research-Driven Design",
+    "bio": "Product Designer with a strong foundation in UI/UX from Yonsei University's Underwood International College. I specialize in end-to-end product design, from user research and wireframing to high-fidelity prototypes and design systems. My experience spans mobile apps, legaltech platforms, and brand identity, always driven by data and user insights to create meaningful digital experiences.",
+    "location": "Seoul, South Korea",
+    "email": "tynybaeva@gmail.com",
+    "linkedin": "linkedin.com/in/alurosee",
+    "phone": "+82 10-2264-6121"
+  },
+  "skills": {
+    "design": [
+      {
+        "name": "UI/UX Design",
+        "level": "Advanced",
+        "years": 3,
+        "description": "End-to-end product design, user flows, wireframing, high-fidelity mockups"
+      },
+      {
+        "name": "Design Systems",
+        "level": "Advanced",
+        "years": 2,
+        "description": "Visual style guides, scalable UI components, design tokens"
+      },
+      {
+        "name": "Prototyping",
+        "level": "Advanced",
+        "years": 3,
+        "description": "Interactive prototypes for user testing and stakeholder presentations"
+      },
+      {
+        "name": "Brand Identity",
+        "level": "Intermediate",
+        "years": 2,
+        "description": "Visual identity, mood boards, brand guidelines, marketing assets"
+      }
+    ],
+    "research": [
+      {
+        "name": "User Research",
+        "level": "Advanced",
+        "years": 2,
+        "description": "User interviews, behavior analysis, persona development"
+      },
+      {
+        "name": "Usability Testing",
+        "level": "Advanced",
+        "years": 2,
+        "description": "A/B testing, user testing sessions, data-driven design decisions"
+      },
+      {
+        "name": "Analytics",
+        "level": "Intermediate",
+        "years": 2,
+        "description": "Google Analytics, conversion path analysis, user behavior tracking"
+      },
+      {
+        "name": "Competitive Analysis",
+        "level": "Advanced",
+        "years": 2,
+        "description": "Market research, competitor benchmarking, identifying visual gaps"
+      }
+    ],
+    "tools": {
+      "design": [
+        { "name": "Figma", "proficiency": 95 },
+        { "name": "Adobe XD", "proficiency": 85 },
+        { "name": "Adobe Illustrator", "proficiency": 90 },
+        { "name": "PowerPoint/Slides", "proficiency": 85 }
+      ],
+      "adobe": [
+        { "name": "Illustrator", "proficiency": 90 },
+        { "name": "Adobe XD", "proficiency": 85 },
+        { "name": "Premiere Pro", "proficiency": 80 },
+        { "name": "CapCut", "proficiency": 85 }
+      ],
+      "marketing": [
+        { "name": "Google Ads", "proficiency": 60 },
+        { "name": "Facebook Ads", "proficiency": 60 },
+        { "name": "Social Media Management", "proficiency": 80 },
+        { "name": "Content Strategy", "proficiency": 75 }
+      ]
+    }
+  },
+  "projects": [
+    {
+      "id": "collabix-app",
+      "title": "Collabix Mobile App",
+      "client": "Collabix",
+      "duration": "April 2025 - Present",
+      "role": "Product Designer",
+      "team": ["Developers", "Stakeholders", "Product Team"],
+      "thumbnail": "/collabix.jpeg",
+      "heroImage": "/collabix.jpeg",
+      "overview": "Designing the full end-to-end mobile app experience for Collabix, from initial concept to final UI/UX delivery, establishing design systems and scalable UI components.",
+      "challenge": "Create a cohesive mobile app experience from scratch while ensuring consistency across the entire application and balancing technical feasibility with business requirements.",
+      "research": {
+        "processImage": "/research-process.jpg",
+        "colorSystemImage": "/collabix-colors.jpg",
+        "userSegments": {
+          "whoPays": "Sellers (brands, small businesses) looking to promote products through authentic content",
+          "whoUses": "UGC creators producing content, Sellers managing campaigns and collaborations",
+          "whoSuffers": "New creators struggling to find brand deals, Small sellers with limited marketing budgets"
+        },
+        "frictionPoints": {
+          "onboarding": "Complex verification process for creators, unclear campaign setup for sellers",
+          "activation": "First successful collaboration takes too long, payment terms unclear",
+          "dropOff": "Creators abandon after no response from brands, sellers leave due to content quality concerns",
+          "trustIssues": "Creators worry about payment security, sellers concerned about content authenticity"
+        },
+        "methods": [
+          {
+            "name": "Requirements Gathering",
+            "description": "Collaborated with stakeholders to understand business goals and user needs",
+            "findings": ["Identified core user workflows", "Defined key feature priorities", "Established design constraints"]
+          },
+          {
+            "name": "Design System Development",
+            "description": "Created comprehensive design system for consistency",
+            "findings": ["Scalable UI components", "Visual style guide", "Reusable design patterns"]
+          }
+        ],
+        "personas": [
+          {
+            "name": "UGC Creator",
+            "age": 24,
+            "occupation": "Content Creator",
+            "goals": ["Find brand collaborations", "Build portfolio", "Earn consistent income"],
+            "painPoints": ["Hard to find opportunities", "Unclear payment terms", "No response from brands"]
+          },
+          {
+            "name": "Seller/Brand",
+            "age": 32,
+            "occupation": "Small Business Owner",
+            "goals": ["Get authentic product content", "Increase sales through UGC", "Find reliable creators"],
+            "painPoints": ["Quality control concerns", "Managing multiple creators", "ROI tracking"]
+          }
+        ]
+      },
+      "solution": {
+        "image": "/solution.jpg",
+        "approach": "User-centered design with focus on consistency and scalability through comprehensive design system.",
+        "keyFeatures": [
+          {
+            "name": "Design System",
+            "description": "Established visual style guide and scalable UI components",
+            "impact": "Ensured consistency across the entire app"
+          },
+          {
+            "name": "End-to-End Design",
+            "description": "Complete user journey from onboarding to core features",
+            "impact": "Seamless user experience throughout the app"
+          },
+          {
+            "name": "Developer Collaboration",
+            "description": "Close collaboration with development team for production-ready designs",
+            "impact": "Smooth design-to-development handoff"
+          }
+        ],
+        "designSystem": {
+          "name": "Collabix Design System",
+          "components": 50,
+          "tokens": 40,
+          "documentation": "Figma component library"
+        }
+      },
+      "metrics": {
+        "monthlyReach": { "before": "12,000", "after": "800,000+", "change": "66x increase in monthly reach" },
+        "sales": { "before": "215 units/month", "after": "700-1,000 units/month", "change": "3-5x increase in monthly sales" },
+        "distributors": { "value": "+3 distributors", "description": "Including 1 international (Kyrgyzstan)" },
+        "appUsers": { "value": "+100 users", "description": "In first month after app launch" }
+      },
+      "tags": ["Mobile App", "Design System", "UI/UX", "Product Design"]
+    },
+    {
+      "id": "legaltech-platform",
+      "title": "LegalTech Platform Redesign",
+      "client": "LegalTech Startup",
+      "duration": "January 2025 - April 2025",
+      "role": "Product Designer",
+      "team": ["Cross-functional Team", "Legal Advisors", "Developers"],
+      "thumbnail": "/legalen.jpg",
+      "heroImage": "/legalen.jpg",
+      "overview": "Conducted comprehensive user research and redesigned the platform experience, identifying friction points and creating interactive prototypes aligned with legal and technical requirements.",
+      "challenge": "Users were experiencing friction across multiple touchpoints, leading to poor conversion rates. The platform needed to balance legal compliance with user-friendly design.",
+      "research": {
+        "colorSystemImage": "/legaltech-colors.jpg",
+        "userSegments": {
+          "whoPays": "Businesses (startups, SMEs) seeking quick and affordable legal registration services",
+          "whoUses": "Entrepreneurs, founders, business owners filling out registration forms",
+          "whoSuffers": "First-time founders confused by legal requirements, businesses facing delays due to paperwork errors"
+        },
+        "frictionPoints": {
+          "onboarding": "Overwhelming legal terminology, unclear document requirements",
+          "activation": "Users unsure which business type to select, form abandonment at complex sections",
+          "dropOff": "Users leave when asked for documents they don't have, payment hesitation without clear value",
+          "trustIssues": "Concerns about data security, uncertainty if registration will be legally valid"
+        },
+        "methods": [
+          {
+            "name": "User Interviews",
+            "description": "Conducted in-depth interviews to understand user pain points",
+            "findings": ["Identified key friction points", "Mapped user mental models", "Discovered unmet needs"]
+          },
+          {
+            "name": "Google Analytics Analysis",
+            "description": "Analyzed user behavior data to identify drop-off points",
+            "findings": ["Identified conversion path issues", "Found feature adoption gaps", "Discovered navigation problems"]
+          },
+          {
+            "name": "Wireframing & Prototyping",
+            "description": "Created low-to-high fidelity wireframes and interactive prototypes",
+            "findings": ["Validated design concepts", "Tested user flows", "Refined interactions"]
+          }
+        ],
+        "personas": [
+          {
+            "name": "First-Time Founder",
+            "age": 28,
+            "occupation": "Startup Entrepreneur",
+            "goals": ["Register business quickly", "Understand legal requirements", "Minimize costs"],
+            "painPoints": ["Legal jargon confusion", "Unsure about correct business type", "Fear of making mistakes"]
+          },
+          {
+            "name": "SME Owner",
+            "age": 42,
+            "occupation": "Business Owner",
+            "goals": ["Expand business legally", "Handle compliance efficiently", "Save time on paperwork"],
+            "painPoints": ["Lengthy manual processes", "Multiple document requirements", "Unclear status tracking"]
+          }
+        ]
+      },
+      "solution": {
+        "image": "/qzan.jpg",
+        "approach": "Data-driven redesign focusing on reducing friction while maintaining legal compliance.",
+        "keyFeatures": [
+          {
+            "name": "Streamlined User Flows",
+            "description": "Redesigned core user journeys based on analytics insights",
+            "impact": "Reduced friction across touchpoints"
+          },
+          {
+            "name": "Interactive Prototypes",
+            "description": "High-fidelity Figma prototypes for user testing",
+            "impact": "Validated designs before development"
+          },
+          {
+            "name": "Cross-functional Alignment",
+            "description": "Collaborated with legal and technical teams",
+            "impact": "Ensured compliance and feasibility"
+          }
+        ]
+      },
+      "metrics": {
+        "investmentDeal": { "value": "$50K", "description": "Investment deal secured with business angel" },
+        "clientTraffic": { "before": "Baseline", "after": "+20%", "change": "20% increase in client traffic" }
+      },
+      "tags": ["LegalTech", "User Research", "Prototyping", "Figma"]
+    },
+    {
+      "id": "adata-platform",
+      "title": "Adata Platform Redesign",
+      "client": "Adata",
+      "duration": "2024",
+      "role": "UI/UX Designer",
+      "team": ["Product Team", "Developers"],
+      "thumbnail": "/adata-front.jpg",
+      "heroImage": "/adata-front.jpg",
+      "overview": "Redesigned landing and filter pages for Adata, a counteragent verification platform in the financial sector, improving user trust and client acquisition.",
+      "challenge": "The existing platform lacked visual credibility for a financial verification service. Users needed to quickly assess counteragent reliability, but the interface was not intuitive or trustworthy.",
+      "research": {
+        "colorSystemImage": "/adata-colors.jpg",
+        "userSegments": {
+          "whoPays": "Businesses (finance departments, procurement teams) needing counteragent verification",
+          "whoUses": "Financial analysts, accountants, procurement managers checking partner reliability",
+          "whoSuffers": "Companies that faced fraud or unreliable partners, teams wasting time on manual checks"
+        },
+        "frictionPoints": {
+          "onboarding": "Unclear what data sources are used, complex subscription tiers",
+          "activation": "First search yields too much or too little data, unclear report interpretation",
+          "dropOff": "Users abandon when verification takes too long, leave if data seems outdated",
+          "trustIssues": "Uncertainty about data accuracy, concerns about legal validity of reports"
+        },
+        "methods": [
+          {
+            "name": "User Flow Analysis",
+            "description": "Analyzed how users navigate through counteragent checks",
+            "findings": ["Complex filter interactions", "Need for clear data visualization", "Trust signals required"]
+          },
+          {
+            "name": "Competitive Analysis",
+            "description": "Reviewed similar financial verification platforms",
+            "findings": ["Identified trust-building patterns", "Found UX best practices", "Discovered differentiation opportunities"]
+          }
+        ],
+        "personas": [
+          {
+            "name": "Financial Analyst",
+            "age": 35,
+            "occupation": "Risk Assessment Specialist",
+            "goals": ["Quickly verify counteragents", "Access reliable data", "Make informed decisions"],
+            "painPoints": ["Unclear data presentation", "Slow verification process", "Lack of trust indicators"]
+          },
+          {
+            "name": "Procurement Manager",
+            "age": 40,
+            "occupation": "Supply Chain Manager",
+            "goals": ["Vet new suppliers efficiently", "Avoid fraudulent partners", "Document due diligence"],
+            "painPoints": ["Time-consuming manual checks", "Incomplete partner information", "Audit trail requirements"]
+          }
+        ]
+      },
+      "solution": {
+        "images": ["/landing.jpg", "/landing2.jpg"],
+        "approach": "Clean, professional redesign focusing on trust, clarity, and efficient data filtering.",
+        "keyFeatures": [
+          {
+            "name": "Landing Page Redesign",
+            "description": "Created professional, trust-inspiring landing page",
+            "impact": "Increased client trust and conversions"
+          },
+          {
+            "name": "Advanced Filter System",
+            "description": "Intuitive filter pages for counteragent verification",
+            "impact": "Faster and more efficient user workflows"
+          },
+          {
+            "name": "Trust-Building Design",
+            "description": "Visual elements conveying reliability and professionalism",
+            "impact": "Attracted more clients to the platform"
+          }
+        ]
+      },
+      "metrics": {
+        "clientTrust": { "value": "Increased", "description": "Improved credibility through professional design" },
+        "clientAcquisition": { "value": "Growth", "description": "Attracted more clients after redesign" }
+      },
+      "tags": ["FinTech", "Landing Page", "UI/UX", "Web Design"]
+    },
+    {
+      "id": "maqam-marketplace",
+      "title": "Maqam Marketplace",
+      "client": "Maqam",
+      "duration": "2023",
+      "role": "UI/UX Designer",
+      "team": ["Product Team", "Developers"],
+      "thumbnail": "/maqam.jpg",
+      "heroImage": "/maqam.jpg",
+      "overview": "Designed web pages for Maqam, a marketplace connecting sellers and users in the beauty and healthy food industry, creating an intuitive e-commerce experience.",
+      "challenge": "Create a marketplace platform that serves both sellers and buyers in the beauty and healthy food niche, balancing seller management tools with a seamless shopping experience for users.",
+      "research": {
+        "colorSystemImage": "/maqam-colors.jpg",
+        "userSegments": {
+          "whoPays": "Sellers (beauty brands, healthy food producers) paying platform fees, Buyers purchasing products",
+          "whoUses": "Sellers listing and managing products, Buyers browsing and purchasing, Admins moderating content",
+          "whoSuffers": "Small sellers struggling with visibility, Buyers unsure about product authenticity, New users overwhelmed by choices"
+        },
+        "frictionPoints": {
+          "onboarding": "Complex seller registration, buyers need account to purchase, unclear platform benefits",
+          "activation": "Sellers unsure how to optimize listings, buyers can't find niche products easily",
+          "dropOff": "Cart abandonment due to shipping costs, sellers leave due to low sales",
+          "trustIssues": "Product authenticity concerns for health items, seller credibility questions, payment security worries"
+        },
+        "methods": [
+          {
+            "name": "Market Research",
+            "description": "Analyzed beauty and healthy food marketplace trends",
+            "findings": ["User preferences for product discovery", "Seller onboarding needs", "Trust factors in health products"]
+          },
+          {
+            "name": "User Journey Mapping",
+            "description": "Mapped both seller and buyer journeys",
+            "findings": ["Key touchpoints identified", "Pain points in existing flows", "Opportunities for improvement"]
+          }
+        ],
+        "personas": [
+          {
+            "name": "Health-Conscious Buyer",
+            "age": 28,
+            "occupation": "Professional",
+            "goals": ["Find quality health products", "Discover new beauty brands", "Easy checkout process"],
+            "painPoints": ["Product authenticity concerns", "Overwhelming choices", "Unclear product information"]
+          },
+          {
+            "name": "Small Business Seller",
+            "age": 35,
+            "occupation": "Entrepreneur",
+            "goals": ["Reach target audience", "Manage inventory easily", "Grow online presence"],
+            "painPoints": ["Complex seller tools", "Limited visibility", "High competition"]
+          }
+        ]
+      },
+      "solution": {
+        "image": "/makan.jpg",
+        "approach": "User-friendly marketplace design balancing seller tools with buyer experience in the beauty and health niche.",
+        "keyFeatures": [
+          {
+            "name": "Marketplace Web Pages",
+            "description": "Clean, intuitive pages for product browsing and discovery",
+            "impact": "Improved user engagement"
+          },
+          {
+            "name": "Seller Dashboard",
+            "description": "Easy-to-use tools for sellers to manage products",
+            "impact": "Streamlined seller onboarding"
+          },
+          {
+            "name": "Product Showcase",
+            "description": "Visual-first design highlighting beauty and health products",
+            "impact": "Enhanced product appeal"
+          }
+        ]
+      },
+      "metrics": {
+        "platform": { "value": "Marketplace", "description": "Beauty & healthy food industry" },
+        "userTypes": { "value": "Sellers + Buyers", "description": "Two-sided marketplace" }
+      },
+      "tags": ["Marketplace", "E-commerce", "Web Design", "UI/UX"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Collabix",
+      "role": "Product Designer",
+      "location": "Astana, KZ",
+      "duration": "April 2025 - Present",
+      "description": "Designing full end-to-end mobile app experience, establishing design systems and scalable UI components.",
+      "highlights": [
+        "Full end-to-end mobile app design from concept to delivery",
+        "Established design system and visual style guide",
+        "Collaborating with developers to translate designs into production"
+      ]
+    },
+    {
+      "company": "LegalTech Startup",
+      "role": "Product Designer",
+      "location": "Remote",
+      "duration": "January 2025 - April 2025",
+      "description": "Conducted user research and behavior analysis, created wireframes and interactive prototypes.",
+      "highlights": [
+        "User interviews and Google Analytics behavior analysis",
+        "Low-to-high fidelity wireframes in Figma",
+        "Cross-functional collaboration on legal and technical requirements"
+      ]
+    },
+    {
+      "company": "Riviera Construction Company",
+      "role": "Marketing Specialist, Intern",
+      "location": "Almaty, KZ",
+      "duration": "June - August 2024",
+      "description": "Unified brand experience across all touchpoints and managed digital presence.",
+      "highlights": [
+        "15% increase in client inquiries through brand unification",
+        "20% increase in web traffic through targeted ads",
+        "Strengthened brand identity across SNS platforms"
+      ]
+    },
+    {
+      "company": "Ramler",
+      "role": "Design Producer",
+      "location": "Astana, KZ",
+      "duration": "December 2021 - July 2022",
+      "description": "Led platform rebrand including UI, social assets, and pitch decks.",
+      "highlights": [
+        "Rebranding attracted 5 investment deals",
+        "Supervised usability and A/B testing",
+        "Increased monthly revenue by 10%"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor in Information & Interaction Design (UI & UX Design)",
+      "school": "Yonsei University (Underwood International College)",
+      "location": "Seoul, ROK",
+      "year": "September 2021 - August 2025",
+      "honors": "GPA: 3.7 / 4.3"
+    }
+  ],
+  "leadership": [
+    {
+      "organization": "Dance Studio 'Goldcoast'",
+      "role": "Founder",
+      "location": "Astana, KZ",
+      "duration": "November 2020 - March 2021",
+      "highlights": [
+        "Increased clients by 30% through persona identification and messaging",
+        "Researched 10+ competitor brands for differentiation",
+        "Provided feedback through SNS statistics review"
+      ]
+    },
+    {
+      "organization": "Achievement and Excellence Society Club",
+      "role": "Founder",
+      "location": "Seoul, ROK",
+      "duration": "March 2024 - July 2024",
+      "highlights": [
+        "Increased membership by 30% through strategic promotion",
+        "Developed workshops for life skills enhancement",
+        "Organized events and guest speaker sessions"
+      ]
+    },
+    {
+      "organization": "Yonsei University",
+      "role": "Office & Teacher Assistant for Prof. Rennie Moon",
+      "location": "Seoul, ROK",
+      "duration": "September 2022 - December 2024",
+      "highlights": [
+        "Identified and streamlined repetitive admin tasks",
+        "Managed meeting logistics and technical setups",
+        "Created visually engaging lecture presentations"
+      ]
+    }
+  ],
+  "languages": [
+    { "name": "English", "level": "Fluent" },
+    { "name": "Russian", "level": "Native" },
+    { "name": "Kazakh", "level": "Native" },
+    { "name": "Korean", "level": "Basic" }
+  ],
+  "strengths": [
+    "Fast Learner",
+    "Reliability",
+    "Problem-Solving",
+    "Passionate Leader",
+    "Critical Thinking"
+  ],
+  "interests": [
+    "Psychology",
+    "Mindfulness",
+    "Healthy Lifestyle"
+  ]
+}
