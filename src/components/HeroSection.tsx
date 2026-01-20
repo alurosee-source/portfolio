@@ -9,7 +9,7 @@ export function HeroSection() {
   const { t } = useLanguage();
 
   return (
-    <section className="relative min-h-[90dvh] flex items-center justify-center pt-14 sm:pt-16">
+    <section className="relative min-h-[95dvh] flex items-center justify-center pt-14 sm:pt-16 pb-20 sm:pb-24">
       {/* Content */}
       <div className="relative z-10 w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-8 sm:py-12">
         {/* Profile image */}
@@ -71,7 +71,7 @@ export function HeroSection() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-4 sm:bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 animate-bounce">
         <a href="#projects" className="flex flex-col items-center gap-1 sm:gap-2 text-muted-foreground hover:text-foreground transition-colors">
           <span className="text-[10px] sm:text-xs uppercase tracking-widest">{t.hero.scroll}</span>
           <svg
