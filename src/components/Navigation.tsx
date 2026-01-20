@@ -97,35 +97,38 @@ export function Navigation() {
             </Button>
           </div>
 
-          {/* Mobile menu button */}
-          <button
-            className="md:hidden p-2 -mr-2 text-muted-foreground hover:text-foreground touch-manipulation"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+          {/* Mobile: Language Toggle & Menu button */}
+          <div className="md:hidden flex items-center gap-2">
+            <LanguageToggle />
+            <button
+              className="p-2 -mr-2 text-muted-foreground hover:text-foreground touch-manipulation"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
             >
-              {mobileMenuOpen ? (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              ) : (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              )}
-            </svg>
-          </button>
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                {mobileMenuOpen ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                )}
+              </svg>
+            </button>
+          </div>
         </div>
 
         {/* Mobile menu */}
@@ -145,10 +148,7 @@ export function Navigation() {
                 {item.label}
               </a>
             ))}
-            <div className="px-4 pt-4 space-y-3">
-              <div className="flex justify-center">
-                <LanguageToggle />
-              </div>
+            <div className="px-4 pt-4">
               <Button
                 asChild
                 className="w-full bg-gradient-to-r from-primary to-accent text-primary-foreground h-12 text-base"
